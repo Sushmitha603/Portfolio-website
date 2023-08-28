@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SUSHMITHA-Developer Portfolio</title>
+    <style>
+        *{
+            margin:0;
+            padding:0;
+        }
+        body{
+           background-color: rgb(10, 10, 27);
+           color: white;
+        }
+        nav{
+            display:flex;
+            justify-content:space-around;
+            align-items: center;
+            height:90px;
+            background-color:rgb(16, 16, 80) ;
+        }
+        nav ul{
+            display: flex;
+            justify-content: center;
+        }
+        nav ul li{
+            list-style:none;
+            margin:0 23px;
+        }
+        nav ul li a{
+            text-decoration: none;
+            color: white;
+        }
+        nav ul li a:hover{
+            color:lightslategray;
+
+        }
+        .left{
+            font-size:30px;
+        }
+        .firstsection {
+            display:flex;
+            justify-content: space-around;
+            margin: 23px 0; 
+            
+        }
+        .leftsection{
+            justify-content: center;
+            margin-top: 90px;
+            
+            font-size: 30px;
+
+        }
+        .leftsection .btn{
+            padding: 12px;
+            background-color:blueviolet;
+            color: aliceblue;
+            margin-top: 30px;
+            
+
+        }
+        span{
+            color: blueviolet;
+        }
+        .rightsection img{
+            
+           width: 100%;
+
+        }
+        .social-icons {
+            display: flex;
+            align-items: center;
+            margin-top: 10px;
+          }
+          .social-icons img {
+            width: 28px;
+            height: 30px;
+            margin-right: 10px;
+          }
+    </style>
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="left">Sushmitha's Portfolio</div>
+            <div class="right">
+                <ul>
+                    <li><a href="/">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="projects.html">Projects</a></li>
+                    <li><a href="contact.html">Contacts</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+   <main>
+    <section class="firstsection">
+        <div class="leftsection">Hi, My name is <span>Sushmitha </span><div>I am a web developer</div>
+        <div class="buttons">
+            <button class="btn" onclick="location.href='https://github.com/Sushmitha603'">GITHUB</button>
+        </div>
+        <div class="social-icons">
+            <a href="https://www.linkedin.com/in/sushmitha-p-06383120a" target="_blank"><img src="linkedin.png" alt="LinkedIn"></a>
+            <a href="mailto:sushmithap802@gmail.com"><img src="email.png" alt="Email"></a>
+          </div>
+    </div>
+        <div class="rightsection"><img src="dev.png" alt=""></div>
+
+    </section>
+   </main>
+    
+</body>
+</html>
